@@ -1,0 +1,81 @@
+<html>
+
+<head>
+
+  <title>
+  </title>
+</head>
+
+<body>
+  <a href="#"><img src="http://www.clker.com/cliparts/a/0/e/6/1366372877556929908dating.svg.med.png" alt="Dating Home" width="70" height="70"></a>
+  <h2>Please Enter Your Details For Our Dating Website!</h2>
+  <form action="" method="post" enctype="multipart/form-data">
+    <fieldset class="fieldset">
+      <legend>Your Face</legend>
+      <label for="image">Your image: </label>
+      <input type="file" name="fileToUpload" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your General Details</legend>
+      <label for="name">Name: </label>
+      <input type="text" name="name" required>
+      <br>
+      <label for="gender">Gender: </label>
+      <input type="radio" name="gender" value="male" required> Male
+      <input type="radio" name="gender" value="female" required> Female
+      <br>
+      <label for="age">Age: </label>
+      <input type="number" name="age" required>
+      <br>
+      <label for="birthday">Date of birth: </label>
+      <input type="date" name="birthday">
+      <br>
+      <label for="color">Favorite color: </label>
+      <input type="color" name="color">
+      <br>
+      <label for="country">Which country: </label>
+      <select name="countries">
+        <option value=""></option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+        <option value="German">German</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Indicators</legend>
+      <label for="height">Height: </label>
+      <span class="left"> Short </span>
+      <input type="range" min="0" max="100" value="50" name="height"> <span class="right">Tall</span>
+      <br>
+      <label for="salary">Salary: </label>
+      <span class="left"> Poor </span>
+      <input type="range" min="0" max="100" value="50" name="salary"> <span class="right"> Rich </span>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Contact Information</legend>
+      <label for="email">Email: </label>
+      <input type="email" name="email" required>
+      <br>
+      <label for="mobile">Mobile: </label>
+      <input type="tel" name="mobile">
+      <br>
+      <label for="address">Address: </label>
+      <textarea rows="4" cols="50" name="address" placeholder="Input your address here..."></textarea>
+      <br>
+      <label for="contact_method" id="method">Method to contact you: </label>
+      <input type="checkbox" name="method1" value="email"> Email
+      <input type="checkbox" name="method2" value="whatsapp"> Whatsapp
+      <input type="checkbox" name="method3" value="inappchat"> In-app chat
+    </fieldset>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+
+</html>
